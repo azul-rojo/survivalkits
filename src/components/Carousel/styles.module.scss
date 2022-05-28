@@ -20,4 +20,25 @@
       flex: none;
     }
   }
+
+  .dot {
+    background-color: rgba(128, 128, 128, 0.45);
+    border-radius: 100%;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin: 0 5px;
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    width: 15px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0);
+
+    &.active {
+      background-color: rgba(128, 128, 128, 0.8);
+      border-color: rgba(128, 128, 128, 0.7);
+      // box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+  }
 }

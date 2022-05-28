@@ -1,5 +1,5 @@
 import { CarouselProps } from './components/Carousel';
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 
 export const foodKit: CarouselProps = {
   title: 'How to make a Food Kit',
@@ -16,6 +16,31 @@ export const foodKit: CarouselProps = {
     },
     {
       heading: 'Embrace Nature',
+      imageSrc: logo,
+      text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
+    },
+    {
+      heading: '2 Snack Puddings',
+      imageSrc: logo,
+      text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
+    },
+    {
+      heading: '2 Ramen Noodle Packages',
+      imageSrc: logo,
+      text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
+    },
+    {
+      heading: '1 Plastic Gatorade',
+      imageSrc: logo,
+      text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
+    },
+    {
+      heading: '1 Spork',
+      imageSrc: logo,
+      text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
+    },
+    {
+      heading: '1 gallon zip-loc storage bag',
       imageSrc: logo,
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     }
