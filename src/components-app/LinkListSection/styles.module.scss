@@ -1,0 +1,48 @@
+@import "../../mixins.scss";
+
+.section {
+  .text {
+    p,
+    h1 {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.4rem;
+    }
+  }
+
+  .links {
+    display: grid;
+    .linkWrapper {
+      display: inline-block;
+      margin-bottom: 15px;
+      .link {
+        font-weight: bold;
+      }
+
+      .description {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  @include medium-devices {
+    .links {
+      grid-template-columns: repeat(3, 33%);
+      .linkWrapper {
+        padding: 10px;
+      }
+    }
+  }
+  @include large-devices {
+    .links {
+      grid-template-columns: repeat(4, 25%);
+    }
+  }
+}

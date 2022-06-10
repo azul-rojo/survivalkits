@@ -10,7 +10,6 @@ export interface CarouselProps {
 
 const Carousel = ({ cards, title }: CarouselProps) => {
   const [activeCardIndex, setActiveCardIndex] = useState(0);
-  // const [prevRatio, setPrevRatio] = useState(0.0);
   const carouselRef = useRef(null);
   const cardsRef = useRef<Array<HTMLDivElement | null>>([]);
 
