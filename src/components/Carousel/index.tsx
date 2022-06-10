@@ -41,8 +41,6 @@ const Carousel = ({ cards, title }: CarouselProps) => {
         const targetNumber = parseInt(targetNumberStr, 10);
         setActiveCardIndex(targetNumber);
       }
-
-      // setPrevRatio(entry.intersectionRatio
     });
   }
 
@@ -62,7 +60,7 @@ const Carousel = ({ cards, title }: CarouselProps) => {
   }
 
   const scrollCardToView = (index: number) => {
-    document.getElementById(`card-${index}`)?.scrollIntoView({ behavior: "smooth" });
+    cardsRef.current[index]?.scrollIntoView({ behavior: "smooth", block: 'center' });
     setActiveCardIndex(index);
   }
   
