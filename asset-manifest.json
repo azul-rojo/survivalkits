@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/survivalkits/static/css/main.44f56bda.css",
-    "main.js": "/survivalkits/static/js/main.59e19976.js",
+    "main.css": "/survivalkits/static/css/main.848a129a.css",
+    "main.js": "/survivalkits/static/js/main.12ec5265.js",
     "static/js/787.b8616449.chunk.js": "/survivalkits/static/js/787.b8616449.chunk.js",
     "static/media/logo.svg": "/survivalkits/static/media/logo.d804b25031e2151c035780276ee855f8.svg",
     "index.html": "/survivalkits/index.html",
-    "main.44f56bda.css.map": "/survivalkits/static/css/main.44f56bda.css.map",
-    "main.59e19976.js.map": "/survivalkits/static/js/main.59e19976.js.map",
+    "main.848a129a.css.map": "/survivalkits/static/css/main.848a129a.css.map",
+    "main.12ec5265.js.map": "/survivalkits/static/js/main.12ec5265.js.map",
     "787.b8616449.chunk.js.map": "/survivalkits/static/js/787.b8616449.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44f56bda.css",
-    "static/js/main.59e19976.js"
+    "static/css/main.848a129a.css",
+    "static/js/main.12ec5265.js"
   ]
 }
