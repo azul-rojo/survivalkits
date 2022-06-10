@@ -1,7 +1,13 @@
+@import "../../mixins.scss";
+
 .card {
   padding: 10px 40px;
   text-align: center;
   width: 100vw;
+
+  @include medium-devices {
+    max-width: 350px;
+  }
 
   h1 {
     font-size: 1.75rem;

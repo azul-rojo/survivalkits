@@ -1,3 +1,5 @@
+@import "../../mixins.scss";
+
 .carousel {
   text-align: center;
 
@@ -39,6 +41,10 @@
       background-color: rgba(128, 128, 128, 0.8);
       border-color: rgba(128, 128, 128, 0.7);
       // box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+
+    @include medium-devices {
+      display: none;
     }
   }
 }

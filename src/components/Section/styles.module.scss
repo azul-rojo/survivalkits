@@ -1,0 +1,11 @@
+@import "../../mixins.scss";
+
+.section {
+  margin: 20px 20px 80px;
+  max-width: 1080px;
+
+  @include extra-large-devices {
+    margin: auto;
+    margin-bottom: 80px;
+  }
+}
