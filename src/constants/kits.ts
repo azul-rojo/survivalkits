@@ -30,7 +30,7 @@ export const foodKit: CarouselProps = {
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },
     {
-      heading: 'Ziploc Storage Bafs',
+      heading: 'Ziploc Storage Bag',
       imageSrc: logo,
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },
