@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/survivalkits/static/css/main.848a129a.css",
-    "main.js": "/survivalkits/static/js/main.518b75c6.js",
+    "main.css": "/survivalkits/static/css/main.82a83ca7.css",
+    "main.js": "/survivalkits/static/js/main.04ccc583.js",
     "static/js/787.b8616449.chunk.js": "/survivalkits/static/js/787.b8616449.chunk.js",
     "static/media/logo.svg": "/survivalkits/static/media/logo.d804b25031e2151c035780276ee855f8.svg",
     "index.html": "/survivalkits/index.html",
-    "main.848a129a.css.map": "/survivalkits/static/css/main.848a129a.css.map",
-    "main.518b75c6.js.map": "/survivalkits/static/js/main.518b75c6.js.map",
+    "main.82a83ca7.css.map": "/survivalkits/static/css/main.82a83ca7.css.map",
+    "main.04ccc583.js.map": "/survivalkits/static/js/main.04ccc583.js.map",
     "787.b8616449.chunk.js.map": "/survivalkits/static/js/787.b8616449.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.848a129a.css",
-    "static/js/main.518b75c6.js"
+    "static/css/main.82a83ca7.css",
+    "static/js/main.04ccc583.js"
   ]
 }
