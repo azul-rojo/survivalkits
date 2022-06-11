@@ -41,7 +41,7 @@ export const shelterKit: CarouselProps = {
   title: 'How to make a Shelter Kit',
   cards: [
     {
-      heading: 'Mylar Emergency Blanket',
+      heading: 'Mylar Blanket',
       imageSrc: logo,
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },    {
@@ -65,7 +65,7 @@ export const shelterKit: CarouselProps = {
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },
     {
-      heading: 'Ziplock Storage Bags',
+      heading: 'Ziplock Storage Bag',
       imageSrc: logo,
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },
@@ -100,7 +100,7 @@ export const firstAidKit: CarouselProps = {
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     },
     {
-      heading: 'Ziplock Storage Bags',
+      heading: 'Ziplock Storage Bag',
       imageSrc: logo,
       text: 'Rotate the nozzle, spritz, take a deep breath and begin your cleaning ritual.'
     }
