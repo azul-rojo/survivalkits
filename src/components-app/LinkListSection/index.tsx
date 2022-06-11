@@ -6,7 +6,7 @@ export type LinkListHref = string;
 export type LinkListDescription = string;
 export interface LinkListSectionProps {
   id: string;
-  links: [LinkListTitle, LinkListTitle, LinkListDescription][]
+  links: [LinkListTitle, LinkListHref, LinkListDescription][]
   title: string;
 }
 

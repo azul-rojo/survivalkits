@@ -20,7 +20,9 @@
   .links {
     display: grid;
     .linkWrapper {
-      display: inline-block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       margin-bottom: 15px;
       .link {
         font-weight: bold;
