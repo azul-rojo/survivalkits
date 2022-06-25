@@ -6,7 +6,8 @@ export const sectionsIds: {[key: string]: string} = {
   firstAidKit: 'firstaidkit',
   hygieneKit: 'hygienekit',
   credits: 'credits',
-  resources: 'resources'
+  resources: 'resources',
+  contact: 'contact',
 };
 
 
@@ -36,6 +37,10 @@ export const sectionCopy: {[key: string]: { title: string, description: string }
     title: 'Resources',
     description: 'Some links to other resources and inspiration used for this page.'
   },
+  contact: {
+    title: 'Contact',
+    description: 'Contact us!'
+  }
   // credits: {
   //   title: 'Credits',
   //   description: 'A list of our contributers and supporters'
