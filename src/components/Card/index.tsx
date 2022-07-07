@@ -14,7 +14,7 @@ export interface CardProps {
 const Card = forwardRef<HTMLDivElement, CardProps>(({ className, heading, id, imageAlt, imageSrc, text }: CardProps, ref) => {
   return (
     <div className={clasname(className, styles.card)} id={id} ref={ref} >
-      <img src={imageSrc} alt={imageAlt}></img>
+      <img className={styles.image}  src={imageSrc} alt={imageAlt}></img>
       <h1>{heading}</h1>
       <p>{text}</p>
     </div>

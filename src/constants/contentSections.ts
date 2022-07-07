@@ -5,9 +5,9 @@ export const sectionsIds: {[key: string]: string} = {
   shelterKit: 'shelterkit',
   firstAidKit: 'firstaidkit',
   hygieneKit: 'hygienekit',
-  credits: 'credits',
   resources: 'resources',
   contact: 'contact',
+  credits: 'credits'
 };
 
 
@@ -39,12 +39,12 @@ export const sectionCopy: {[key: string]: { title: string, description: string }
   },
   contact: {
     title: 'Contact',
-    description: 'Contact us!'
+    description: 'Different ways you can Contact us!'
+  },
+  credits: {
+    title: 'Credits',
+    description: 'A list of our contributers and resources used to make this page'
   }
-  // credits: {
-  //   title: 'Credits',
-  //   description: 'A list of our contributers and supporters'
-  // }
 };
 
 export const contentSectionTitle = 'Table of Contents'

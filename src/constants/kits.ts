@@ -1,12 +1,26 @@
 import { CarouselProps } from '../components/Carousel';
 import logo from '../assets/logo.svg';
 
+import bandage_1 from '../assets/bandage-01.svg';
+import bandage from '../assets/bandage-02.svg';
+import bottle from '../assets/water-bottle-01.svg';
+import peanut from '../assets/peanut-02.svg';
+import ramen from '../assets/ramen-01.svg';
+import sock from '../assets/sock-02.svg';
+import spork from '../assets/spoon-02.svg';
+import toothbrush from '../assets/toothbrush-02.svg';
+import toothpaste from '../assets/toothpaste-02.svg';
+import pillow from '../assets/pillow-01.svg';
+import glove from '../assets/glove-01.svg';
+import square from '../assets/square-01.svg';
+
+
 export const foodKit: CarouselProps = {
   title: 'How to make a Food Kit',
   cards: [
     {
       heading: 'Peanut Butter',
-      imageSrc: logo,
+      imageSrc: peanut,
       text: 'Add a plastic jar of peanut butter.'
     },
     {
@@ -16,17 +30,17 @@ export const foodKit: CarouselProps = {
     },
     {
       heading: 'Ramen Noodles',
-      imageSrc: logo,
+      imageSrc: ramen,
       text: 'Add 2 packages of ramen noodles'
     },
     {
       heading: 'Bottle of Gatorade',
-      imageSrc: logo,
+      imageSrc: bottle,
       text: 'Add 1 plastic bottle of gaterade.'
     },
     {
       heading: 'Spork',
-      imageSrc: logo,
+      imageSrc: spork,
       text: 'Add a spork.'
     },
     {
@@ -42,11 +56,11 @@ export const shelterKit: CarouselProps = {
   cards: [
     {
       heading: 'Mylar Blanket',
-      imageSrc: logo,
+      imageSrc: pillow,
       text: 'Add 1 mylar emergency blanket.'
     },    {
       heading: 'Pair of Socks',
-      imageSrc: logo,
+      imageSrc: sock,
       text: 'Add a pair of socks.'
     },
     {
@@ -56,12 +70,12 @@ export const shelterKit: CarouselProps = {
     },
     {
       heading: 'Pair of Gloves',
-      imageSrc: logo,
+      imageSrc: glove,
       text: 'Add 1 pair of gloves for colder weather.'
     },
     {
       heading: 'Waterproof Tarp',
-      imageSrc: logo,
+      imageSrc: square,
       text: 'Add 1 waterproof tarp.'
     },
     {
@@ -77,11 +91,11 @@ export const firstAidKit: CarouselProps = {
   cards: [
     {
       heading: 'Regular Band-Aids',
-      imageSrc: logo,
+      imageSrc: bandage,
       text: 'Add 5 regular band-aids.'
     },    {
       heading: '2x2 Gauze Bandages',
-      imageSrc: logo,
+      imageSrc: bandage_1,
       text: 'Add 2 2x2 gauze bandages.'
     },
     {
@@ -122,12 +136,12 @@ export const hygieneKit: CarouselProps = {
     },
     {
       heading: 'Tooth Brush',
-      imageSrc: logo,
+      imageSrc: toothbrush,
       text: 'Add 1 tooth brush.'
     },
     {
       heading: 'Toothpaste',
-      imageSrc: logo,
+      imageSrc: toothpaste,
       text: 'Add 1 toothpaste.'
     },
     {

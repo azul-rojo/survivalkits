@@ -1,7 +1,7 @@
 import { MainSectionProps } from "../components-app/MainSection";
 
 export const mainSectionProps: MainSectionProps = {
-  body: 'A basis on how to help others. Through survival kits we can help each other\'s lifes be easier. A list of resources and how tos this will be can be a good start to better ourselves through empathy and community state of mind.',
+  body: 'A collection of resources to create survival kits to help those in need. Let’s start to help each other by creating these kits and giving them away to those who need them.',
   imageSrc: 'this',
   title: 'Survival Kits',
 }

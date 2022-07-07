@@ -4,6 +4,7 @@ import { firstAidKit, foodKit, hygieneKit, shelterKit } from './constants/kits';
 import { contentSectionTitle, sectionsIds, sectionList } from './constants/contentSections';
 import { resources } from './constants/resources';
 import { contact } from './constants/contact';
+import { credits } from './constants/credits';
 import MainSection from './components-app/MainSection';
 import Kits from './components-app/Kits';
 import LinkListSection from './components-app/LinkListSection';
@@ -19,6 +20,7 @@ function App() {
       <Kits carouselProps={hygieneKit} id={sectionsIds.hygieneKit} />
       <LinkListSection {...resources} />
       <LinkListSection {...contact} />
+      <LinkListSection {...credits} />
     </div>
   );
 }
