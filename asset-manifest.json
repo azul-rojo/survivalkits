@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/survivalkits/static/css/main.fc92c391.css",
-    "main.js": "/survivalkits/static/js/main.aec344bf.js",
+    "main.js": "/survivalkits/static/js/main.ba4518ea.js",
     "static/js/787.b8616449.chunk.js": "/survivalkits/static/js/787.b8616449.chunk.js",
     "static/media/ramen-01.svg": "/survivalkits/static/media/ramen-01.b7c3a52da98a78b8a9a1f03b32c8bf1f.svg",
     "static/media/peanut-02.svg": "/survivalkits/static/media/peanut-02.0f48686f705d399ba1b59280cabb857d.svg",
@@ -18,11 +18,11 @@
     "static/media/bandage-02.svg": "/survivalkits/static/media/bandage-02.e8c0736a01f726c9de69bd934c5b787e.svg",
     "static/media/square-01.svg": "/survivalkits/static/media/square-01.cfcdba53877d728d5484203ad68e6df8.svg",
     "main.fc92c391.css.map": "/survivalkits/static/css/main.fc92c391.css.map",
-    "main.aec344bf.js.map": "/survivalkits/static/js/main.aec344bf.js.map",
+    "main.ba4518ea.js.map": "/survivalkits/static/js/main.ba4518ea.js.map",
     "787.b8616449.chunk.js.map": "/survivalkits/static/js/787.b8616449.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc92c391.css",
-    "static/js/main.aec344bf.js"
+    "static/js/main.ba4518ea.js"
   ]
 }
