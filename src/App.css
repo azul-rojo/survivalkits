@@ -19,3 +19,7 @@ body {
 * ::after {
   box-sizing: inherit;
 }
+
+.App {
+  padding-top: 15px;
+}
