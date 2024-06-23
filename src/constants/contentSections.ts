@@ -23,15 +23,15 @@ export const sectionCopy: {[key: string]: { title: string, description: string }
   },
   shelterKit: {
     title: 'Shelter Kit',
-    description: 'A visial how to make a shelter kit to give out.'
+    description: 'A visual how to make a shelter kit to give out.'
   },
   firstAidKit: {
     title: 'First Aid Kit',
-    description: 'A visial how to make a first aid kit to give out.'
+    description: 'A visual how to make a first aid kit to give out.'
   },
   hygieneKit: {
     title: 'Hygiene Kit',
-    description: 'A visial how to make a hygiene kit to give out.'
+    description: 'A visual how to make a hygiene kit to give out.'
   },
   resources: {
     title: 'Resources',
